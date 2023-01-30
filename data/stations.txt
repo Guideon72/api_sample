@@ -1,0 +1,46 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 16-11-2022
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at https://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 46 STANAME: Station name
+ 48- 49 CN     : Country code (ISO3116 countrycodes)
+ 51- 59 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 61- 70 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 72- 76 HGTH   : Station elevation in meters
+
+STAID,STANAME                                 ,CN,      LAT,       LON,HGHT
+
+    1,VAEXJOE                                     ,SE  ,+56:52:00,+014:48:00,  166
+    2,FALUN                                       ,SE  ,+60:37:00,+015:37:00,  160
+    3,STENSELE                                    ,SE  ,+65:04:00,+017:09:59,  325
+    4,LINKOEPING                                  ,SE  ,+58:24:00,+015:31:59,   93
+    5,LINKOEPING-MALMSLAETT                       ,SE  ,+58:24:00,+015:31:59,   93
+    6,KARLSTAD                                    ,SE  ,+59:21:00,+013:28:00,   46
+    7,KARLSTAD-AIRPORT                            ,SE  ,+59:26:40,+013:20:15,  107
+    8,OESTERSUND                                  ,SE  ,+63:10:59,+014:28:59,  376
+    9,OESTERSUND-FROESOEN                         ,SE  ,+63:10:59,+014:28:59,  376
+   10,STOCKHOLM                                   ,SE  ,+59:21:00,+018:03:00,   44
+   11,KREMSMUENSTER (TAWES)                       ,AT  ,+48:03:18,+014:07:51,  382
+   12,GRAZ-UNIVERSITAET                           ,AT  ,+47:04:40,+015:26:56,  367
+   13,INNSBRUCK-UNIV                              ,AT  ,+47:15:36,+011:23:03,  578
+   14,SALZBURG-FLUGHAFEN                          ,AT  ,+47:47:21,+013:00:29,  430
+   15,SONNBLICK (TAWES)                           ,AT  ,+47:03:15,+012:57:27, 3109
+   16,WIEN-HOHE WARTE                             ,AT  ,+48:14:54,+016:21:23,  198
+   21,ZAGREB-GRIC                                 ,HR  ,+45:49:00,+015:58:41,  156
+   22,AMIANDOS                                    ,CY  ,+34:55:59,+032:55:00, 1360
+   23,LARNACA                                     ,CY  ,+34:52:59,+033:37:59,    1
+   24,LIMASSOL                                    ,CY  ,+34:40:00,+033:02:59,    5
+   25,NICOSIA                                     ,CY  ,+35:10:00,+033:21:00,  160
+   26,POLIS                                       ,CY  ,+35:01:59,+032:25:59,   20
+   27,PRAHA-KLEMENTINUM                           ,CZ  ,+50:05:11,+014:24:59,  190
+   28,HELSINKI KAISANIEMI                         ,FI  ,+60:10:30,+024:56:52,    4
+   29,JYVASKYLA LENTOASEMA                        ,FI  ,+62:24:07,+025:40:42,  139
+   30,SODANKYLA. LAPIN ILMATIET. TUTK.KESKUS      ,FI  ,+67:21:57,+026:37:59,  179
+
